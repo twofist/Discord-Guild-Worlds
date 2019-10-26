@@ -1,0 +1,19 @@
+{
+  "name": "discord-user-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --experimental-modules server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "twofist",
+  "license": "MIT"
+}
